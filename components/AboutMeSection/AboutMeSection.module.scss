@@ -1,0 +1,64 @@
+@import "../../src/App.scss";
+
+.body {
+    @extend .defaultStyles;
+}
+
+.name {
+    @extend .defaultStyles;
+    @extend .primaryText;
+
+    font-size: 42px;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+
+    // margin-top: 0px;
+    // margin-bottom: 0px;
+}
+
+.position {
+    @extend .defaultStyles;
+    @extend .primaryText;
+
+    font-size: 21px;
+    padding-bottom: 10px;
+    color: $highlightedTextColor;
+}
+
+.infoSection {
+    @extend .defaultStyles;
+
+    display: flex;
+    align-items: center;
+
+    gap: 25px;
+}
+
+.infoItem {
+    @extend .defaultStyles;
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.infoIcon {
+    @extend .defaultStyles;
+
+    width: 12px;
+    height: 12px;
+
+    margin-right: 6px;
+}
+
+.infoText {
+    @extend .defaultStyles;
+    @extend .secondaryText;
+
+    font-size: 12px;
+    color: #384347;
+
+    line-height: 15px;
+
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+@import "../../src/App.scss";
+
+.body {
+    @extend .defaultStyles;
+
+    border-bottom-color: #A9A9A9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.skillItem {
+    @extend .defaultStyles;
+    @extend .secondaryText;
+
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #384347;
+
+    padding-left: 8px;
+    padding-right: 8px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

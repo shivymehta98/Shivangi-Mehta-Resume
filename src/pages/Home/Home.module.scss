@@ -1,0 +1,38 @@
+@import "../../App.scss";
+
+.main {
+    @extend .defaultStyles;
+    width: 800px;
+    height: 1370px;
+    
+    // margin-left: 55px;
+    // margin-right: 55px;
+
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+
+    padding: 60px;
+    padding-bottom: 0px;
+}
+
+.infoSections {
+    @extend .defaultStyles;
+
+    display: flex;
+    gap: 50px;
+}
+
+.leadingSection {
+    @extend .defaultStyles;
+    width: 442px;
+}
+
+.trailingSection {
+    @extend .defaultStyles;
+    width: 294px;
+}
+
+.infoSection {
+    @extend .defaultStyles;
+    margin-top: 30px;
+}
