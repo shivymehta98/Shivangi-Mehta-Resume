@@ -15,15 +15,19 @@ const SkillsSection = () => {
     },
     {
       title: "Libraries",
-      skills: ["ReactJS", "NextJS", "React Native", "GraphQL", "NodeJS"],
+      skills: ["ReactJS", "NextJS", "React Native", "Redux", "GraphQL", "NodeJS"],
     },
     {
       title: "Services",
-      skills: ["Firebase", "Stream Chat", "GitHub Actions", "AWS", "RazorPay"],
+      skills: ["Firebase", "Stream Chat", "GitHub Actions", "AWS", "RazorPay", "Docker"],
     },
     {
       title: "Storage",
       skills: ["Core Data", "MongoDB", "MySQL", "Realm"],
+    },
+    {
+      title: "Design Tools",
+      skills: ["Figma", "Sketch", "Adobe XD", "Wireframe.cc"],
     },
   ];
 
