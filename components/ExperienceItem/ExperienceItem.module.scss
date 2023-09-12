@@ -91,6 +91,7 @@
 
 .responsibilityItem {
     @extend .defaultStyles;
+    @extend .descriptionText;
 
     margin-top: 8px;
 }
