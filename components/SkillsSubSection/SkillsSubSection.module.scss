@@ -1,8 +1,6 @@
 @import "../../src/App.scss";
 
-.body {
-    margin-bottom: 14px;
-}
+
 
 .subSectionTitle {
     @extend .subSectionTitle;
@@ -13,10 +11,10 @@
 .skillsListSection {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    // gap: 10px;
 
-    margin-top: 10px;
+    // margin-top: 10px;
 
-    padding: 5px;
+    // padding: 5px;
     padding-bottom: 0px;
 }

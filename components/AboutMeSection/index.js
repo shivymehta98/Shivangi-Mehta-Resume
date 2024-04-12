@@ -3,16 +3,16 @@ import css from "./AboutMeSection.module.scss";
 
 const AboutMeSection = () => {
   let userDetails = {
-    phoneNumber: "+91-9724999243",
-    link: "https://www.linkedin.com/in/jay-mehta-05031997/",
-    email: "jaymmehta97gmail.com",
-    location: "Bangalore, IN",
+    phoneNumber: "+91-8866049994",
+    link: "https://www.linkedin.com/in/shivymehta/",
+    email: "shivymehta98@gmail.com",
+    location: "Ahmedabad, IN",
   };
 
   return (
     <div className={css.body}>
-      <p className={css.name}>Jay Mehta</p>
-      <p className={css.position}>Senior Software Engineer</p>
+      <p className={css.name}>Shivangi Mehta</p>
+      {/* <p className={css.position}>Assistant Professor</p> */}
 
       <div className={css.infoSection}>
         <div className={css.infoColumn}>

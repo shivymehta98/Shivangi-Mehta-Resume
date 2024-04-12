@@ -6,34 +6,22 @@ import SkillsSubSection from "../SkillsSubSection";
 const SkillsSection = () => {
   let allSkillsDetails = [
     {
-      title: "Languages",
-      skills: ["Swift", "Python", "Javascript", "Typescript", "Kotlin", "Java"],
+      title: "Web Technology Stack & Programming",
+      skills: ["HTML, CSS, Javascript, Typescript ", "React, Angular, Node.js (Basics), mongoDB, Bootstrap, Material UI", "C, C++, Java, Python (Basics)"],
     },
     {
-      title: "Platforms",
-      skills: ["iOS", "Web", "Android", "macOS"],
-    },
-    {
-      title: "Libraries",
-      skills: ["ReactJS", "NextJS", "React Native", "Redux", "GraphQL", "NodeJS"],
+      title: "Network Security & VAPT Tools | Digital Forensics Tools",
+      skills: ["Wireshark, Nmap, Nessus, Burp Suite, Metasploit, OWASP Zap", "Beef, Open puff, Dmitry, Whatweb, OSINT, UFED, Encase, FTK"],
     },
     {
       title: "Services",
-      skills: ["Firebase", "Stream Chat", "GitHub Actions", "AWS", "RazorPay", "Docker"],
-    },
-    {
-      title: "Storage",
-      skills: ["Core Data", "MongoDB", "MySQL", "Realm"],
-    },
-    {
-      title: "Design Tools",
-      skills: ["Figma", "Sketch", "Adobe XD", "Wireframe.cc"],
+      skills: ["Firebase", "GitHub"]
     },
   ];
 
   return (
     <div className={css.body}>
-      <p className={css.sectionTitle}>SKILLS</p>
+      <p className={css.sectionTitle}>PROGRAMMING SKILLS</p>
 
       {allSkillsDetails.map((skillDetails, index) => {
         return (

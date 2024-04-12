@@ -7,7 +7,7 @@ import ExperienceSection from "../../components/ExperienceSection";
 import EducationSection from "../../components/EducationSection";
 import SkillsSection from "../../components/SkillsSection";
 import PublicationsSection from "../../components/PublicationsSection";
-
+import ProjectSection from "../../components/ProjectSection"
 export default function Home() {
   return (
     <div className={css.main}>
@@ -25,11 +25,15 @@ export default function Home() {
             <div className={css.infoSection}>
               <ExperienceSection />
             </div>
-
+           
             <div className={css.infoSection}>
               <EducationSection />
             </div>
+            <div className={css.infoSection}>
+              <ProjectSection />
+            </div>
           </div>
+          
 
           <div className={css.trailingSection}>
             <div className={css.infoSection}>

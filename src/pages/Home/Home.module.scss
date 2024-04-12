@@ -11,7 +11,7 @@
     // margin-top: 20px;
     // margin-bottom: 20px;
 
-    padding: 60px;
+    padding: 40px;
     padding-bottom: 0px;
 }
 
@@ -19,12 +19,12 @@
     @extend .defaultStyles;
 
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
 
 .leadingSection {
     @extend .defaultStyles;
-    width: 502px;
+    width: 570px;
 }
 
 .trailingSection {
@@ -34,5 +34,5 @@
 
 .infoSection {
     @extend .defaultStyles;
-    margin-top: 30px;
+    margin-top: 20px;
 }

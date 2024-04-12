@@ -6,11 +6,25 @@ import EducationItem from "../EducationItem";
 const EducationSection = () => {
   let educations = [
     {
+      title: "Doctor of Philosophy (Pursuing)",
+      instituteName: "Gujarat Technological University",
+      startDate: "2022",
+      endDate: "ongoing",
+      location: "Ahmedabad, IN"
+    },
+    {
+      title: "Master of Technology (Cyber Security)",
+      instituteName: "Rashtriya Raksha University",
+      startDate: "2019",
+      endDate: "2021",
+      location: "Gandhinagar, IN"
+    },
+    {
       title: "Bachelor in Computer Engineering",
-      instituteName: "SAL Engineering and Technical Institute",
+      instituteName: "Gujarat Technological University",
       startDate: "2015",
       endDate: "2019",
-      location: "Ahmedabad, IN",
+      location: "Ahmedabad, IN"
     },
   ];
 

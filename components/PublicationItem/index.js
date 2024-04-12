@@ -9,7 +9,7 @@ const PublicationItem = (props) => {
       <p className={css.companyNameText}>{publication.companyName}</p>
 
       <div className={css.urlSection}>
-        <img className={css.urlIcon} src={"/link-black.png"} />
+        
         <a href={publication.url} className={css.infoText}>
           {publication.url}
         </a>
