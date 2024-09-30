@@ -30,18 +30,20 @@ export default function Home() {
               <EducationSection />
             </div>
             <div className={css.infoSection}>
-              <ProjectSection />
+              <PublicationsSection />
             </div>
           </div>
           
 
           <div className={css.trailingSection}>
+
             <div className={css.infoSection}>
               <SkillsSection />
             </div>
             <div className={css.infoSection}>
-              <PublicationsSection />
+              <ProjectSection />
             </div>
+          
           </div>
         </div>
       </main>
